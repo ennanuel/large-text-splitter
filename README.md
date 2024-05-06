@@ -17,8 +17,8 @@ There are no specific dependencies required to run this static webpage. You can 
 A typical static webpage project might have the following folder structure:
 
 - `index.html`: The main HTML file of the website.
-- `style.css`: Contains all the Cascading Style Sheet (CSS) files that define the website's styles.
-- `script.js` (optional): Contains any JavaScript files used for interactivity on the webpage.
+- `style.css`: Cascading Style Sheet (CSS) file that define the website's styles.
+- `script.js`: JavaScript file used for interactivity on the webpage.
 - `assets`: Contains images, fonts, or other media files used on the webpage.
 
 ### Contributing
