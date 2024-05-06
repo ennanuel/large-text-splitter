@@ -24,6 +24,36 @@ body {
         0 3px 10px rgba(0, 0, 0, 0.05);
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header .icon {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(210, 244, 255);
+}
+
+.header .title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.header .title p {
+    font-size: .9rem;
+    font-style: italic;
+    color: gray;
+}
+
+.header img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
 form {
     width: 100%;
     max-width: 600px;
