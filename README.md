@@ -1,26 +1,49 @@
-## SpliTXT
+## Text Splitter: A Simple Tool for Working with Long Texts and Generative AI
 
-This repository contains the source files for a static web page.
+This project provides a user-friendly interface for splitting large text files into smaller, more manageable sections suitable for use with generative AI models like Gemini and ChatGPT, which often have character limitations.
 
-### Description
+**Features:**
 
-A static webpage is a website that consists of pre-written HTML, CSS, and JavaScript files. These files are delivered directly to the user's browser without the need for a server-side script to generate them dynamically. This makes static websites fast, secure, and easy to deploy.
+* **Simple and Intuitive:** Drag and drop or upload your text file and specify the desired maximum characters per section.
+* **Customizable Splitting:** Choose the ideal character limit for your specific AI model and task.
+* **Preserves Formatting:** Optionally, maintain basic formatting (paragraphs, line breaks) during the splitting process.
+* **Static and Offline:** Works entirely in your browser, requiring no installation or external servers. 
 
-This project utilizes static files to create a simple yet informative webpage.
+**Benefits:**
 
-### Getting Started
+* **Study Aid:** Quickly generate summaries of long texts (e.g., books) using generative AI models.
+* **Content Management:** Break down lengthy content into digestible chunks for easier online consumption.
+* **AI Experimentation:** Explore the capabilities of generative AI models with different text lengths.
+* **Offline Processing:** Utilize the tool even without an internet connection.
 
-There are no specific dependencies required to run this static webpage. You can view the content directly by opening the `index.html` file in your web browser.
+**Technologies:**
 
-### Folder Structure
+* HTML: Structures the user interface and content flow.
+* CSS: Styles the visual elements for a clean and user-friendly experience.
+* JavaScript: Implements the text splitting logic and user interaction.
 
-A typical static webpage project might have the following folder structure:
+**Getting Started:**
 
-- `index.html`: The main HTML file of the website.
-- `style.css`: Cascading Style Sheet (CSS) file that define the website's styles.
-- `script.js`: JavaScript file used for interactivity on the webpage.
-- `assets`: Contains images, fonts, or other media files used on the webpage.
+* [Live Demo](https://splitxt.netlify.app)
 
-### Contributing
+1. Clone this repository or download the project files.
+2. Open `index.html` in your web browser.
+3. Type or copy and paste your text into the designated area.
+4. Click "Split Text."
+5. The split sections will be displayed below, ready for copying and pasting into your chosen AI model.
 
-Feel free to fork this repository and make changes to create your own static webpage. We welcome pull requests for improvements or bug fixes to this base project.
+**Built With:**
+
+* This project was built for personal use and learning purposes.
+
+**Disclaimer:**
+
+* The effectiveness of generated summaries may vary depending on the complexity of the text and the capabilities of the AI model used.
+
+**Future Improvements:**
+
+* Implement support for different file formats (e.g., .pdf, .doc, .docx)
+* Explore advanced splitting techniques that consider sentence boundaries or semantic breaks.
+* Add an option to download the split sections as separate files.
+
+This text splitter is a valuable tool for anyone working with large text files and wanting to leverage the power of generative AI models. Feel free to customize and adapt it to your specific needs!
